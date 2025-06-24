@@ -1,0 +1,121 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, header, main {
+      background-repeat: no-repeat;
+    }
+
+    body {
+      background-color: beige;
+      width: 100%;
+      height: 100%;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #ffffff;
+      border-bottom: 2px solid #00b894;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    #Title {
+      text-align: center;
+      color: blue;
+    }
+
+    h2 {
+      color: blue;
+    }
+
+    main {
+      padding: 20px;
+      border-radius: 60px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      gap: 15px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    #form1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      width: 100%;
+      max-width: 300px;
+      color: black;
+    }
+
+    #Receita,
+    #data,
+    #valor,
+    #nome {
+      width: 100%;
+      height: 2.3rem;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    #mais {
+      width: 80%;
+      height: 2.3rem;
+      background-color: #00cec9;
+      border: solid 1px #00cec9;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    #mais .fa-plus {
+      background-color: aquamarine;
+      font-size: x-large;
+      padding: 4px;
+      border-radius: 10px;
+    }
+
+    #Excluir {
+      width: 90%;
+      height: 2.3rem;
+      background-color: red;
+      border: red;
+      cursor: pointer;
+      border-radius: 15px;
+    }
+
+    #mostra {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #eaeaea;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    footer div {
+      flex: 1;
+      max-width: 300px;
+      height: 10vh;
+      padding: 7px;
+    }
+
